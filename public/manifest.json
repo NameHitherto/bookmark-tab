@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Vue 3 书签新标签页",
+  "version": "0.1.0",
+  "description": "一个使用 Vue 3 构建的简易书签新标签页",
+  
+  "permissions": [
+    "bookmarks",
+    "favicon"
+  ],
+  
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  }
+}
